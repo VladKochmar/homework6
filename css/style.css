@@ -1,0 +1,271 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Circe";
+	src: url("../fonts/Circe-Regular.woff2") format("woff2"), url("../fonts/Circe-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Circe";
+	src: url("../fonts/Circe-Bold.woff2") format("woff2"), url("../fonts/Circe-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: Circe;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: Pacifico;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	margin: 0px 0px 40px 0px;
+	color: #003153;
+	text-shadow: 2px 2px 2px #ff2400;
+}
+
+h2 {
+	font-size: 36px;
+	color: #911e42;
+	text-shadow: 1px 2px 5px #a7fc00;
+	margin: 0px 0px 0px 10px;
+}
+
+h3 {
+	font-size: 30px;
+	margin: 0px 0px 20px 20px;
+	color: #ff0033;
+	text-shadow: -2px -1px 2px #eb4c42;
+}
+
+h4 {
+	font-size: 20px;
+	margin: 0px 0px 10px 0px;
+	color: #009b76;
+}
+
+.info {
+	border: 5px dashed #9966cc;
+	max-width: 700px;
+	margin: 0px 0px 30px 0px;
+}
+
+.info__text {
+	display: inline-block;
+	max-width: 500px;
+	max-height: 500px;
+}
+
+.info__img {
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 50%;
+}
+
+.navigation {
+	margin: 0px 0px 20px 0px;
+}
+
+.navigation ol {
+	margin: 0px 0px 0px 10px;
+	font-size: 18px;
+}
+
+.navigation ul {
+	margin: 0px 0px 0px 20px;
+	font-size: 16px;
+}
+
+.navigation ol a {
+	color: #34c924;
+}
+
+.navigation ul a {
+	color: #9966cc;
+}
+.childhood {
+	font-size: 0;
+	margin: 0px 0px 20px 0px;
+}
+
+.text {
+	font-size: 16px;
+	max-width: 400px;
+	max-height: 200px;
+	display: inline-block;
+	overflow: auto;
+	background-color: #893f45;
+	color: #fff;
+	vertical-align: top;
+}
+
+.nirvana {
+	background-color: #2a8d9c;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	outline: 10px double #ff2400;
+}
+
+.nirvana p {
+	text-align: center;
+	color: #fff;
+}
+
+.nirvana h3 {
+	text-align: center;
+}
+
+.family {
+	letter-spacing: 10px;
+	text-transform: lowercase;
+	background-color: #a7fc00;
+}
+
+.family span {
+	letter-spacing: 0;
+	word-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #003153;
+	text-shadow: 1px 2px 3px #009b76;
+	opacity: 0.6;
+}
+
+.test2 {
+	font-size: 30px;
+	text-decoration: line-through;
+	text-align: right;
+	margin: 0px 0px 40px 0px;
+	color: #9966cc;
+	background-color: #a7fc00;
+}
+
+.test3 {
+	font-size: 20px;
+	color: #695e5e;
+	background-color: #9966cc;
+	text-align: center;
+	border-top: 3px dashed #ff0033;
+	border-bottom: 2px solid #911e42;
+	border-left: 5px dotted #a7fc00;
+	border-radius: 20px 10px 50px 5px;
+}
+
+.musical p {
+	border: 3px solid #893f45;
+	padding: 15px;
+	max-width: 400px;
+}
+
+.musical a {
+	font-size: 24px;
+	opacity: 0;
+}
+
+.midtext {
+	visibility: hidden;
+}
+
+.shadow {
+	border-radius: 33% 67% 69% 31% / 24% 79% 21% 76%;
+	box-shadow: 2px 5px 10px 2px #3bb08f;
+}
+
+.first {
+	width: 200px;
+	height: 200px;
+	border: 5px solid #000;
+	border-radius: 50%;
+	background-color: #a7fc00;
+}
+
+.second {
+	opacity: 50%;
+}
+
+.third span {
+	display: block;
+	border: 5px solid #ff0033;
+}
+
+.fourth {
+	width: 400px;
+	height: 200px;
+	background-color: #dcdcdc;
+	border-top: 20px solid #ff0033;
+	border-bottom: 15px dashed #893f45;
+	border-left: 10px dotted #34c924;
+	border-right: 5px double #ff2400;
+}
+
+.fifth a {
+	font-size: 30px;
+	color: #893f45;
+	text-shadow: 1px 1px 4px #ff2400;
+	box-shadow: 2px 3px 3px 10px #9966cc;
+}
+.fifth {
+	margin: 0px 0px 20px 0px;
+}
+
+.footer {
+	border-top: 7px solid #1c1c1c;
+	background-color: #dcdcdc;
+}
